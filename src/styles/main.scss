@@ -25,28 +25,29 @@ a:hover{
     border-bottom: solid 4px $red;
 }
 
-.mynav {
-	background: #EEEEEE;
-    width: 100%;
-    height: 4rem;
-    padding-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    color: $red;
-    a{
-        padding: 2px 20px;
-        color: $red;
-    }
-    .cv{
-        padding: 5px 40px;
-        margin: 0 50px;
-        height: 30px;
-        font-size: .75rem;
-        color: $red;
-        border: solid $red 2px;
-        border-radius: 30px;
-    }
-}
+// .mynav {
+// 	background: #EEEEEE;
+//     width: 100%;
+//     height: 4rem;
+//     padding-top: 20px;
+//     display: flex;
+//     justify-content: flex-end;
+//     color: $red;
+//     a{
+//         padding: 2px 20px;
+//         color: $red;
+//     }
+//     .cv{
+//         padding: 5px 40px;
+//         margin: 0 50px;
+//         height: 30px;
+//         font-size: .75rem;
+//         color: $red;
+//         border: solid $red 2px;
+//         border-radius: 30px;
+//     }
+// }
+
 .modal-content a{
     background-color: white;
     width: 100%;
@@ -74,7 +75,7 @@ a:hover{
 
 #landing{
     padding-top: 10%;
-    height: calc(100vh - 4rem);
+    height: 100vh;
     background: url("/imgs/landing.jpg") no-repeat;
     background-size: cover;
     color: white;
